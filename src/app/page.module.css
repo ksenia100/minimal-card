@@ -1,0 +1,84 @@
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'sans-serif';
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap; 
+}
+
+.imageContainer {
+
+    max-width: 50%;
+}
+
+.image {
+    width: 100%;
+    height: auto; 
+    display: block;
+    border-radius: 8px; 
+}
+
+.detailsContainer {
+    flex: 1 1 50%; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedbacks{
+    margin-left:20px;
+}
+
+.selections{
+    margin-top: 15px;
+}
+
+.rateContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.productDetails {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 24px;
+}
+
+.user, .learn{
+    color: #2997ff;
+}
+
+.buyButton {
+    border: none;
+    background: #0786d5;
+    color: #fff;
+    margin-right:10px
+}
+
+.buyCredit {
+    border: 1px solid #0786d5;
+    background: #fff;
+    color: #0786d5;
+}
+
+.buyButton,
+.buyCredit {
+  border-radius: 4px;
+  padding: 8px 0; 
+  flex-grow: 1;
+}
+
+.description {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
